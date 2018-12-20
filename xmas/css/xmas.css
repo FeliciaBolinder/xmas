@@ -23,8 +23,8 @@ section{
 
 header {
   color:#ce0b0b;
-  width: 50%
-  height: 200px;
+  
+ 
 
 }
 
@@ -33,14 +33,13 @@ img {
 }
 
 .columns {
- padding-left: 20%;
+ padding-left: 10%;
  margin-top: 100px;
  display: grid;
- grid-template-columns: 1fr 1fr 2fr; /* fraction*/
+ grid-template-columns: 1fr 1fr 1fr; /* fraction*/
 
 
 } 
-
 
 nav  { 
 
@@ -74,7 +73,7 @@ li > a:hover {
  h1 {
  	
  
- 	width:70%;
+ 	width:935px;
  	padding-left: 280px;
  	font-family: 'Merriweather', serif;
  	color: #dde3e9; 
@@ -94,22 +93,80 @@ color: #dde3e9;
 h3 {
 	font-family: 'Merriweather', serif;
  	color: #dde3e9;  
+ 	font-size: 1em;
+}
+h4 {
+	font-family: 'Merriweather', serif;
+ 	color: #dde3e9;  
  	font-size: 2em;
 }
+
+h5 {
+	font-family: 'Merriweather', serif;
+    color: #063607;
+    font-size: 2em;
+
+}
+
+h6 {
+	font-family: 'Merriweather', serif;
+    color: #063607;
+    font-size: 1em;
+
+}
+
 
 p{ 
 font-family: 'Merriweather Sans', sans-serif;
 color: #dde3e9;
 font-size: 1em;
 
+
  }
 
 
 div {
-	height: 200px;
+	height: 300px;
 }
 
 br {
 
 	height: 500px;
+}
+
+.kontaktuppgifter{
+ background-color: #dde3e9;
+ width: 50%;
+ 
+}
+
+
+#snow {
+  height: 180%;
+  width: 80%;
+  position: absolute;
+  background-image: url(http://gdurl.com/dIoP),
+  url(http://gdurl.com/G5Vp),
+  url(http://gdurl.com/m9Yz);
+  z-index: 1;
+  pointer-events: none;
+  -moz-animation: snow 10s linear infinite;
+  -webkit-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+
+}
+
+@-moz-keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}
+
+@-webkit-keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
+}
+
+@keyframes snow {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  100% { background-position: 500px 1000px, 0 400px, 0 300px; }
 }
